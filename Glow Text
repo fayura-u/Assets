@@ -1,0 +1,23 @@
+<style>
+  .glow-text {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    transition: 0.3s; /* Makes the glow fade in smoothly */
+    cursor: pointer;
+    background: #222; /* Dark background helps the glow pop */
+    padding: 20px;
+    display: inline-block;
+  }
+
+  /* The magic happens here */
+  .glow-text:hover {
+    text-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #fff, 
+      0 0 20px #00d2ff, 
+      0 0 40px #00d2ff;
+  }
+</style>
+
+<h1 class="glow-text">Hover over me!</h1>
